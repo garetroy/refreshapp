@@ -1,0 +1,18 @@
+{
+  "name": "RefreshApp",
+  "description": "Clears All Cache/History/Cookies..etc",
+  "version": "1.0",
+  "permissions": [
+    "file:///*.html",
+    "http://*/",
+    "activeTab",
+    "tabs",
+    "browsingData"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {},
+  "manifest_version": 2
+}
